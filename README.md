@@ -22,13 +22,28 @@ The key differentiator of this project is the **hybrid usage of both OpenAI and 
 - Rate-limiting, caching, and memory handling via CrewAI configs
 - Runs smoothly in environments like **Kaggle**, **Colab**, and **local machines**
 
-## Project Structure
-├── agents.py # Defines specialized agents (researcher, writer, etc.)
-├── tasks.py # Defines research & writing tasks
-├── tools.py # External tools for transcription and summarization
-├── crew.py # CrewAI setup and execution script
-├── .env # Environment variables (API keys)
-├── README.md # Project documentation
+
+---
+
+## ⚙️ .py files structure
+
+1. **Agents Setup** (`agents.py`)  
+   Defines specialized agents like the Blog Researcher and Blog Writer with distinct goals and roles.
+
+2. **Tasks Definition** (`tasks.py`)  
+   Configures individual tasks like transcript generation and summarization, connecting them to agents.
+
+3. **Tools Integration** (`tools.py`)  
+   Provides external tools powered by Gemini and OpenAI for generating YouTube transcripts and summarizing them.
+
+4. **CrewAI Orchestration** (`crew.py`)  
+   Brings agents, tasks, and tools together into a cohesive workflow using CrewAI’s orchestration capabilities.
+
+5. **Environment Variables** (`.env`)  
+   Stores API keys required for interacting with OpenAI and Gemini APIs securely.
+
+6. **Documentation** (`README.md`)  
+   This file—serves as a complete guide to understanding, setting up, and using the project.
 
 
 
