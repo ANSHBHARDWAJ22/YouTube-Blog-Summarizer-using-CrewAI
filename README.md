@@ -23,7 +23,12 @@ The key differentiator of this project is the **hybrid usage of both OpenAI and 
 - Runs smoothly in environments like **Kaggle**, **Colab**, and **local machines**
 
 ## Project Structure
-
+├── agents.py # Defines specialized agents (researcher, writer, etc.)
+├── tasks.py # Defines research & writing tasks
+├── tools.py # External tools for transcription and summarization
+├── crew.py # CrewAI setup and execution script
+├── .env # Environment variables (API keys)
+├── README.md # Project documentation
 
 
 
