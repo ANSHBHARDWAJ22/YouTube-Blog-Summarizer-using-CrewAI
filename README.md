@@ -59,4 +59,7 @@ The key differentiator of this project is the **hybrid usage of both OpenAI and 
 3. **Final Output**:
    - The content is generated in markdown format, ready for use in blogs or publications.
 
+     ---
+     THE MAIN NOTEBOOK IS AVAILABLE AT MY KAGGLE ACCOUNT
+
 
