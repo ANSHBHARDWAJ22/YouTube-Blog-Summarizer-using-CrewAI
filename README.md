@@ -1,4 +1,4 @@
-# YouTube Blog Summarizer using CrewAI
+# YouTube Video Summarizer using CrewAI
 
 ## Overview
 
@@ -59,9 +59,4 @@ The key differentiator of this project is the **hybrid usage of both OpenAI and 
 3. **Final Output**:
    - The content is generated in markdown format, ready for use in blogs or publications.
 
-## Setup Instructions
 
-1. **Clone the repository**:
-```bash
-git clone https://github.com/your-username/youtube-blog-summarizer.git
-cd youtube-blog-summarizer
